@@ -8,4 +8,3 @@
 
     <a href="/blog">Back to Posts   </a>
 @endsection
-gfff
