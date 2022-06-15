@@ -1,9 +1,8 @@
 @extends("layouts.main")
 @section("container")
-    <article class="mb-5">
-        <h2>{{ $post->title }}</h2>
-        {!! $post->body !!}
-    </article>
+    <h2>{{ $post->title }}</h2>
+    <p>By. Shiro X in <a href="/categories/{{ $post->category->slug }}">{{ $post->category->name }}</a></p>
+    {!! $post->body !!}
 
     <a href="/blog">Back to Posts   </a>
 @endsection
