@@ -11,8 +11,6 @@
             <img src="https://source.unsplash.com/1200x400?{{ $post->category->name }}" class="img-fluid mt-3" alt="{{ $post->category->name }}">
 
             <article class="my-3 fs-5">{!! $post->body !!}</article>
-
-            <a href="/blog" class="d-block mt-3 text-decoration-none">Back to Posts   </a>
         </div>
     </div>
 </div>
